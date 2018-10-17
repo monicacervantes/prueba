@@ -19,6 +19,7 @@
       <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
     <script src="js/owl.carousel.js"></script>
     
 	</head>
@@ -88,7 +89,7 @@
   			<section id="section-1">
   				<div class="container">
   					<div class="row no-gutters mt-5 pb-5">
-		    			<div class="col-md-7">
+		    			<div class="col-md-7" data-aos="fade-right">
 		    				<div class="foto">
 		    				<img src="img/photo-1512403754473-27835f7b9984.jpg" alt="">
 		    			</div>
@@ -97,7 +98,7 @@
 		    				<div class="line"></div>
 		    			</div>
 		    			</div>
-		    			<div class="col-md-5 pt-5 pl-5 pr-5">
+		    			<div class="col-md-5 pt-5 pl-5 pr-5" data-aos="fade-left">
 		    				<p>Lorem ipsum dolor sit amet, sed decore denique consequuntur ea, mei te porro simul deleniti. At stet duis delectus per, eos an eros liber causae, ex duo lorem noluisse. His debet nostro facilisis te. Eripuit euripidis sit cu, impedit pericula temporibus has ei. Sed dolore mandamus ad, ei dolore graecis duo. Sale diceret cu nec, in pro vidisse praesent.
 		    					<br><br>
 		    				Nec ea nemore ocurreret, enim idque ei sea. Hinc nulla molestie in sed. Sit an verterem urbanitas similique, at alii partiendo per. Ius ne nonumes admodum, prompta eligendi imperdiet pro cu. Ne vim suscipit voluptua, usu repudiare euripidis reprehendunt id.
@@ -112,7 +113,7 @@
 							Nec ea nemore ocurreret, enim idque ei sea. Hinc nulla molestie in sed. Sit an verterem urbanitas similique, at alii partiendo per. Ius ne nonumes admodum, prompta eligendi imperdiet pro cu. Ne vim suscipit voluptua, usu repudiare euripidis reprehendunt id.
 							</p>
 		    			</div>
-		    			<div class="offset-md-1 col-md-6 img-background">
+		    			<div class="offset-md-1 col-md-6 img-background" data-aos="zoom-in">
 		    				<img src="img/photo-1517048676732-d65bc937f952.jpg">
 		    			</div>
 		    		</div>
@@ -298,6 +299,14 @@
       <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
        <script src="js/javascript.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	  <script>
+	    AOS.init({
+	  duration: 1200,
+	})
+
+	  </script>
+	
 	
    
 		
