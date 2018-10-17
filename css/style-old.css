@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'Bebas-bold';
+    src: url("../fonts/BebasNeue Bold.woff2") format("woff2"), url("../fonts/BebasNeue Bold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Bebas-book';
+    src: url("../fonts/BebasNeue Book.woff2") format("woff2"), url("../fonts/BebasNeue Book.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Bebas-light';
+    src: url("../fonts/BebasNeue Light.woff2") format("woff2"), url("../fonts/BebasNeue Light.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {lp
+    font-family: 'Bebas-regular';
+    src: url("../fonts/BebasNeue Regular.woff2") format("woff2"), url("../fonts/BebasNeue Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Bebas-thin';
+    src: url("../fonts/BebasNeue Thin.woff2") format("woff2"), url("../fonts/BebasNeue Thin.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'omnes-black';
+    src: url("../fonts/omnes-black.woff2") format("woff2"), url("../fonts/omnes-black.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'omnes-bold';
+    src: url("../fonts/omnes-bold.woff2") format("woff2"), url("../fonts/omnes-bold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'omnes-extralight';
+    src: url("../fonts/omnes-extralight.woff2") format("woff2"), url("../fonts/omnes-extralight.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'omnes-hairline';
+    src: url("../fonts/omnes-hairline.woff2") format("woff2"), url("../font/somnes-hairline.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'omnes-light';
+    src: url("../fonts/omnes-light.woff2") format("woff2"), url("../font/somnes-light.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'omnes-medium';
+    src: url("../fonts/omnes-medium.woff2") format("woff2"), url("../font/somnes-medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'omnes-regular';
+    src: url("../fonts/omnes-regular.woff2") format("woff2"), url("../font/somnes-regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'omnes-semibold';
+    src: url("../fonts/omnes-semibold.woff2") format("woff2"), url("../font/somnes-semibold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'omnes-thin';
+    src: url("../fonts/omnes-thin.woff2") format("woff2"), url("../font/somnes-thin.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+/* GENERALES*/
+
+.text-grey{
+	color:#888888;
+}
+.text-aqua{
+	color:#7ae0e8;
+}
+li.nav-item{
+	font-family:'Bebas-bold';
+	font-size:18px;
+	padding:0 50px;
+}
+.navbar{
+	background-color:#004069;
+	transition: background-color 1s ease 0s;
+}
+.bg-aqua, .bg-aqua-1{
+	background-color:#004069;
+	padding: 0!important;
+	height: 60px;
+
+}
+.bg-aqua.active{
+	 opacity: 0.89;
+    filter: alpha(opacity=89);
+}
+.navbar.solid {
+  background-color: rgba(93, 132, 158, 0.56);
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+}
+
+
+/* HEADER */
+
+header {
+    overflow: hidden;
+    padding:40px 0 0px;
+}
+
+.video-bg {
+    min-width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    height: 100vh;
+}
+
+.video-bg::-webkit-media-controls {
+    display: none !important;
+}
+#outer {
+  width: 100%;
+  display: block;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+#home-top-video:before {
+  content:"";
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  z-index:1;
+  background:linear-gradient(to right,rgba(73, 153, 204, 0.83),rgba(93, 132, 158, 0.56));
+}
+
+#home-top-video {
+  left: 0%;
+  top: 0%;
+  height: 90vh;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+#home-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index:1;
+}
+
+/* SECTION 1*/
+#section-1{
+	min-height: 100vh;
+}
+.foto img{
+	width: 100%;
+}
+.recuadro-foto{
+	background: linear-gradient(to right,#035a95 0%,#0498bd 100%);
+    background:-webkit-linear-gradient(left,#035a95 0%,#0498bd 60%);
+	background:-moz-linear-gradient(left,#035a95 0%,#0498bd 60%);
+	padding: 50px;
+    color: white;
+    font-family:'omnes-regular';
+    font-size: 20px;
+    text-align: left;
+    margin: -30% 0% 0% 0%;
+}
+.recuadro-foto p{
+	color: white;
+    font-family:'omnes-regular';
+    font-size: 20px;
+    text-align: left;
+}
+div.line{
+	width: 70px;
+	height: 1.5px;
+	background-color:white;
+	margin-top:40px;
+}
+
+/* SECTION 2*/
+.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+.texto{
+	padding:50px;
+}
+.module.parallax h1 {
+  /*color: rgba(255, 255, 255, 0.8);*/
+  color:white;
+  font-size: 3em;
+  line-height: 60px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  /*text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
+  margin: 60px;
+  /*filter: brightness(1.5)!important;*/
+  height: 20%;
+  z-index: 2;
+  padding:10px;
+}
+.module.parallax-1 {
+  background-image: url('../img/photo-1531973576160-7125cd663d86.jpg');
+}
+
+ 
+/*.module.parallax :before {
+  content:"";
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  z-index:1;
+  background:linear-gradient(to right,rgba(0, 64, 105, 0.14),rgba(93, 132, 158, 0.56));
+}*/
+
+#section-3{
+	min-height: 90vh;
+}
